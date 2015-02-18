@@ -8,9 +8,9 @@ public class FizzBuzz {
     }
   }
 
-  public static String intToString(int a){
+  public static String intToString(int a) {
     String ret;
-    if((a%5 == 0) && (a%3==0)){
+      if((a%5 == 0) && (a%3==0)){
       ret = "FizzBuzz";
     }
     else if(a%5==0){
